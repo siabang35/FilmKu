@@ -27,7 +27,7 @@ page (String): Nomor halaman untuk paginasi.
 Mengembalikan: LiveData tipe Resource<MovieResponse>
 
 
-##Penggunaan
+##Penggunaan##
 // Contoh penggunaan MainViewModel untuk mendapatkan film yang sedang tren setiap minggu
 val mainViewModel = MainViewModel(mainRepository)
 mainViewModel.getTrendingMovieEveryWeek(apiKey).observe(this, { resource ->
@@ -50,10 +50,10 @@ mainViewModel.getTrendingMovieEveryWeek(apiKey).observe(this, { resource ->
 })
 
 
-##MainRepository
+##MainRepository##
 Untuk pemahaman yang lebih lengkap tentang struktur aplikasi, harap merujuk ke kelas MainRepository di paket repository.
 
-##Instalasi
+##Instalasi##
 Klon repository: git clone https://github.com/namauser/FilmKu.git
 Buka proyek di Android Studio.
 Tambahkan kunci API TMDb Anda di tempat-tempat yang sesuai.
