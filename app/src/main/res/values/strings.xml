@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FilmKU</string>
+    <string name="latest">Latest</string>
+    <string name="action">Action</string>
+    <string name="average_rating">9.8</string>
+    <string name="action_search">Search</string>
+    <string name="close_dialog">Close Dialog</string>
+    <string name="movie_title">The Avenger</string>
+    <string name="movie_description">Get started with Android (Kotlin, Jet Compose) &amp; IOS (Swift UI), MVVM clean architecture, and Beautiful UI UX design patterns.</string>
+</resources>
