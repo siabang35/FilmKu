@@ -1,10 +1,10 @@
-Aplikasi FilmKu
-Gambaran Umum
-FilmKu adalah aplikasi Android yang dirancang untuk memberikan informasi tentang film-film yang sedang tren dan memberikan rekomendasi film berdasarkan peringkat dan rilis terbaru. Aplikasi ini menggunakan API Movie Database (TMDb) untuk mengambil data tentang film-film.
+FilmKu App
+Deskripsi
+FilmKu adalah aplikasi Android yang memberikan informasi tentang film-film yang sedang tren dan memberikan rekomendasi berdasarkan peringkat dan rilis terbaru. Aplikasi ini menggunakan API Movie Database (TMDb) untuk mengambil data tentang film-film.
 
 MainViewModel
 Deskripsi Kelas
-Kelas MainViewModel bertanggung jawab atas manajemen dan penanganan operasi data terkait tampilan utama aplikasi FilmKu. Ini berinteraksi dengan MainRepository untuk mengambil data dari API TMDb dan menyediakan data ini ke komponen UI.
+Kelas MainViewModel bertanggung jawab atas manajemen dan penanganan operasi data terkait tampilan utama aplikasi FilmKu. Kelas ini berinteraksi dengan MainRepository untuk mengambil data dari API TMDb dan menyediakan data ini ke komponen UI.
 
 Metode
 1. getTrendingMovieEveryWeek(apiKey: String): LiveData<Resource<TrendingResponse>>
@@ -24,10 +24,10 @@ Parameter:
 apiKey (String): Kunci API TMDb untuk otentikasi.
 genreID (String): ID genre untuk film aksi.
 page (String): Nomor halaman untuk paginasi.
-Mengembalikan: LiveData tipe Resource<MovieResponse>.
-Penggunaan
-kotlin
-Copy code
+Mengembalikan: LiveData tipe Resource<MovieResponse>
+
+
+##Penggunaan
 // Contoh penggunaan MainViewModel untuk mendapatkan film yang sedang tren setiap minggu
 val mainViewModel = MainViewModel(mainRepository)
 mainViewModel.getTrendingMovieEveryWeek(apiKey).observe(this, { resource ->
@@ -48,13 +48,16 @@ mainViewModel.getTrendingMovieEveryWeek(apiKey).observe(this, { resource ->
         }
     }
 })
-MainRepository
+
+
+##MainRepository
 Untuk pemahaman yang lebih lengkap tentang struktur aplikasi, harap merujuk ke kelas MainRepository di paket repository.
 
-Instalasi
+##Instalasi
 Klon repository: git clone https://github.com/namauser/FilmKu.git
 Buka proyek di Android Studio.
 Tambahkan kunci API TMDb Anda di tempat-tempat yang sesuai.
 Jalankan aplikasi pada emulator atau perangkat fisik.
-Lisensi
+
+##Lisensi
 Proyek ini dilisensikan di bawah MIT License.
