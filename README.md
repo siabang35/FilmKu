@@ -1,6 +1,6 @@
 **FilmKu App**
 *Deskripsi*
-FilmKu adalah aplikasi Android yang memberikan informasi tentang film-film yang sedang tren dan memberikan rekomendasi berdasarkan peringkat dan rilis terbaru. Aplikasi ini menggunakan API Movie Database (TMDb) untuk mengambil data tentang film-film.
+FilmKu adalah aplikasi Android yang memberikan informasi tentang film-film yang sedang tren dan memberikan rekomendasi berdasarkan peringkat dan rilis terbaru. Aplikasi ini menggunakan API Movie Database **(TMDb)** untuk mengambil data tentang film-film.
 
 **MainViewModel**
 Deskripsi Kelas
@@ -28,7 +28,7 @@ Mengembalikan: LiveData tipe Resource<MovieResponse>
 
 
 **Penggunaan**
-![Text Alt](url_gambar)
+![Text Alt](app/src/main/res/drawable-xhdpi/penggunaan.png)
 
 
 **MainRepository**
@@ -40,5 +40,5 @@ Buka proyek di Android Studio.
 Tambahkan kunci API TMDb Anda di tempat-tempat yang sesuai.
 Jalankan aplikasi pada emulator atau perangkat fisik.
 
-*Lisensi*
+**Lisensi**
 Proyek ini dilisensikan di bawah MIT License.
