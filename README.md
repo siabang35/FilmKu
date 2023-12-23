@@ -27,8 +27,8 @@ page (String): Nomor halaman untuk paginasi.
 Mengembalikan: LiveData tipe Resource<MovieResponse>
 
 
-**Penggunaan**
-![Text Alt](app/src/main/res/drawable-xhdpi/penggunaan.png)
+
+![**Penggunaan**](app/src/main/res/drawable-xhdpi/penggunaan.png)
 
 
 **MainRepository**
