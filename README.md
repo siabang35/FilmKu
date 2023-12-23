@@ -26,9 +26,9 @@ genreID (String): ID genre untuk film aksi.
 page (String): Nomor halaman untuk paginasi.
 Mengembalikan: LiveData tipe Resource<MovieResponse>
 
+**Penggunaan**
 
-
-![**Penggunaan**](app/src/main/res/drawable-xhdpi/penggunaan.png)
+![IMG](app/src/main/res/drawable-xhdpi/penggunaan.png)
 
 
 **MainRepository**
