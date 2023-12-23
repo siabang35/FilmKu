@@ -28,26 +28,7 @@ Mengembalikan: LiveData tipe Resource<MovieResponse>
 
 
 **Penggunaan**
-// Contoh penggunaan MainViewModel untuk mendapatkan film yang sedang tren setiap minggu
-val mainViewModel = MainViewModel(mainRepository)
-mainViewModel.getTrendingMovieEveryWeek(apiKey).observe(this, { resource ->
-    when (resource) {
-        is Resource.Success -> {
-            // Penanganan respons berhasil
-            val trendingMovies = resource.data
-            // Perbarui UI dengan film yang sedang tren
-        }
-        is Resource.Error -> {
-            // Penanganan respons error
-            val errorMessage = resource.message
-            // Tampilkan pesan kesalahan kepada pengguna
-        }
-        is Resource.Loading -> {
-            // Penanganan status sedang memuat
-            // Tampilkan indikator memuat kepada pengguna
-        }
-    }
-})
+![Text Alt](url_gambar)
 
 
 **MainRepository**
